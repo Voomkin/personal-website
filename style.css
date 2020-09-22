@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+:root {
+    font-family: 'Epilogue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#github-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}

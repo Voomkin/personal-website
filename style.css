@@ -9,7 +9,28 @@ h1 {
     text-align: center;
 }
 
-p {
+h2 {
+    margin-left: .5em;
+}
+
+.adjust {
+    padding: 0;
+    text-indent: 2rem;
+}
+
+.indent {
+    text-indent: .5rem;
+}
+
+.p-card {
+    background: #55928D;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 .25rem black;
+    padding: 1rem;
+}
+
+.center {
     text-align: center;
 }
 
@@ -17,7 +38,8 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
+

@@ -5,12 +5,18 @@
     font-family: 'Epilogue', sans-serif;
 }
 
+header {
+    height: 60vh;
+    margin-bottom: 2.5em;
+}
+
 h1 {
     text-align: center;
 }
 
 h2 {
     margin-left: .5em;
+    margin-bottom: 1em;
 }
 
 .adjust {
@@ -28,10 +34,17 @@ h2 {
     border: 2px solid black;
     box-shadow: 0 0 .25rem black;
     padding: 1rem;
+    margin-bottom: 1em;
+    line-height: 2;
 }
 
 .center {
     text-align: center;
+}
+
+.shift-down {
+    position: absolute;
+    top: 30%;
 }
 
 #github-img {

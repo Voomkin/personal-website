@@ -44,7 +44,13 @@ h2 {
 
 .shift-down {
     position: absolute;
+    left: 2.25em;
     top: 30%;
+}
+
+.resize {
+    width: 85%;
+    height: 25%;
 }
 
 #github-img {

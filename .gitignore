@@ -1,2 +1,6 @@
 ## Files below will not be committed
 
+.gitignore
+.DS_store
+style.css.map
+style.scss

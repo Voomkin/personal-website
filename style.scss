@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.p-res {
+		font-size: 12px;
+	}
+
+	#git {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
 $title-color: #3066be;
 $bk-color: #eee5e9;
 $card-color: #395b50;
@@ -14,11 +35,32 @@ body {
 }
 
 h1 {
-	font-size: 52px;
+	font-size: 1em;
 }
 
 h2 {
 	margin-left: 1em;
+}
+
+.me-responsive {
+	width: 40%;
+	height: 50%;
+}
+
+.alt-pic {
+	display: none;
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.details-responsive {
+	width: 40%;
+	height: 50%;
+}
+
+.p-res {
+	font-size: 1.25rem;
 }
 
 .header-flex {
@@ -27,19 +69,34 @@ h2 {
 	align-items: center;
 	justify-items: center;
 	border-bottom: 2px solid black;
+	width: 100vw;
 }
 
 #git {
-	width: 6.5em;
-	height: 3.5em;
-	margin-right: 2.5em;
+	width: 5rem;
+	height: 3rem;
+	margin-right: 1rem;
 }
 
 #linkdn {
-	width: 3.5em;
-	height: 3.5em;
+	width: 3rem;
+	height: 3rem;
 }
 
-#about-me {
-	background: black;
+@media only screen and (min-width: 350px) and (max-width: 750px) {
+	.me-responsive {
+		display: none;
+		position: absolute;
+	}
+
+	.alt-pic {
+		display: block;
+		position: relative;
+		width: 50px;
+		height: 50px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
 }

@@ -1,64 +1,40 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 :root {
-    font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
-header {
-    height: 60vh;
-    margin-bottom: 2.5em;
+body {
+  margin: 0;
+  background-color: #eee5e9;
 }
 
 h1 {
-    text-align: center;
+  font-size: 52px;
 }
 
-h2 {
-    margin-left: .5em;
-    margin-bottom: 1em;
+.header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid black;
 }
 
-.adjust {
-    padding: 0;
-    text-indent: 2rem;
+#git {
+  width: 6.5em;
+  height: 3.5em;
+  margin-right: 2.5em;
 }
 
-.indent {
-    text-indent: .5rem;
+#linkdn {
+  width: 3.5em;
+  height: 3.5em;
 }
-
-.p-card {
-    background: #55928D;
-    color: black;
-    border: 2px solid black;
-    box-shadow: 0 0 .25rem black;
-    padding: 1rem;
-    margin-bottom: 1em;
-    line-height: 2;
-}
-
-.center {
-    text-align: center;
-}
-
-.shift-down {
-    position: absolute;
-    left: 2.25em;
-    top: 30%;
-}
-
-.resize {
-    width: 85%;
-    height: 25%;
-}
-
-#github-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
+/*# sourceMappingURL=style.css.map */

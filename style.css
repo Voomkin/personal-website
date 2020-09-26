@@ -12,6 +12,10 @@ h1 {
   font-size: 52px;
 }
 
+h2 {
+  margin-left: 1em;
+}
+
 .header-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,5 +40,9 @@ h1 {
 #linkdn {
   width: 3.5em;
   height: 3.5em;
+}
+
+#about-me {
+  background: black;
 }
 /*# sourceMappingURL=style.css.map */

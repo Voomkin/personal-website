@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+
+$title-color: #3066be;
+$bk-color: #eee5e9;
+$card-color: #395b50;
+
+:root {
+	font-family: "Epilogue", sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: $bk-color;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	margin-left: 1em;
+}
+
+.header-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+	border-bottom: 2px solid black;
+}
+
+#git {
+	width: 6.5em;
+	height: 3.5em;
+	margin-right: 2.5em;
+}
+
+#linkdn {
+	width: 3.5em;
+	height: 3.5em;
+}
+
+#about-me {
+	background: black;
+}

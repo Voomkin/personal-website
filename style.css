@@ -57,7 +57,7 @@ h1 {
           align-items: center;
 }
 
-.card h2 {
+.card {
   text-indent: 5%;
 }
 
@@ -91,7 +91,6 @@ h1 {
 }
 
 .adjust {
-  text-indent: 25px;
   margin: 5% 5% 5% 5%;
 }
 

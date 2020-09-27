@@ -18,6 +18,12 @@ h1 {
   margin-bottom: 0;
 }
 
+footer {
+  font-size: 1.25rem;
+  text-align: center;
+  text-shadow: 0 0 2px white;
+}
+
 .header-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +81,7 @@ h1 {
 
 .card li {
   font-size: 1.25rem;
+  text-indent: 7.5%;
 }
 
 .cool-grey {
@@ -109,5 +116,35 @@ h1 {
 #linkdn {
   height: 3rem;
   width: 3rem;
+}
+
+@media only screen and (min-width: 1080px) {
+  .header-flex h1 {
+    font-size: 5rem;
+  }
+  .header-flex p {
+    font-size: 3rem;
+  }
+  .header-flex #git {
+    height: 150px;
+    width: 150px;
+  }
+  .header-flex #linkdn {
+    height: 95px;
+    width: 95px;
+  }
+  .card h2 {
+    font-size: 3.25rem;
+  }
+  .card h4 {
+    font-size: 2.5rem;
+  }
+  .card p {
+    font-size: 1.75rem;
+  }
+  .card li {
+    font-size: 1.75rem;
+    text-indent: 7.5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

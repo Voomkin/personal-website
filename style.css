@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eee5e9;
-  line-height: 2;
+  line-height: 2.5;
   font-size: calc(16px + 4 * ((100vw - 320px) / 680));
 }
 

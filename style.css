@@ -61,6 +61,14 @@ h1 {
   text-indent: 5%;
 }
 
+.card h4 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
 .cool-grey {
   background: #9197ae;
   text-shadow: 0 0 2px white;
@@ -78,12 +86,12 @@ h1 {
 .rich-black {
   background: #042a2b;
   color: white;
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 2px #eee5e9;
   border-top: 2px solid black;
 }
 
 .adjust {
-  text-indent: 50px;
+  text-indent: 25px;
   margin: 5% 5% 5% 5%;
 }
 

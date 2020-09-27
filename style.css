@@ -62,7 +62,8 @@ h1 {
 }
 
 .card h4 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  text-indent: 5%;
 }
 
 .card p {
@@ -71,7 +72,6 @@ h1 {
 
 .cool-grey {
   background: #9197ae;
-  text-shadow: 0 0 2px white;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }

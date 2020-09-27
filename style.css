@@ -1,95 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 20px;
-  }
-  .p-res {
-    font-size: 12px;
-  }
-  #git {
-    width: 50px;
-    height: 50px;
-  }
-}
-
 :root {
   font-family: "Epilogue", sans-serif;
 }
 
 body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   margin: 0;
+  padding: 0;
   background-color: #eee5e9;
 }
 
 h1 {
-  font-size: 1em;
-}
-
-h2 {
-  margin-left: 1em;
-}
-
-.me-responsive {
-  width: 40%;
-  height: 50%;
-}
-
-.alt-pic {
-  display: none;
-  position: absolute;
-  width: 0;
-  height: 0;
-}
-
-.details-responsive {
-  width: 40%;
-  height: 50%;
-}
-
-.p-res {
-  font-size: 1.25rem;
+  font-size: 2.5rem;
 }
 
 .header-flex {
+  margin-top: 15px;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
-  border-bottom: 2px solid black;
-  width: 100vw;
+}
+
+.test {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.border {
+  border: 5px solid #050505;
+  background: lightblue;
+  border-radius: 100%;
+}
+
+.p-res {
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 #git {
-  width: 5rem;
-  height: 3rem;
-  margin-right: 1rem;
+  width: 35%;
+  height: 35%;
 }
 
 #linkdn {
-  width: 3rem;
-  height: 3rem;
-}
-
-@media only screen and (min-width: 350px) and (max-width: 750px) {
-  .me-responsive {
-    display: none;
-    position: absolute;
-  }
-  .alt-pic {
-    display: block;
-    position: relative;
-    width: 50px;
-    height: 50px;
-  }
-  h1 {
-    font-size: 2em;
-  }
+  height: 35%;
+  width: 17.5%;
 }
 /*# sourceMappingURL=style.css.map */

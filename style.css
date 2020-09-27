@@ -80,6 +80,7 @@ footer {
       align-self: center;
   -ms-grid-column-align: center;
       justify-self: center;
+  border: 1px solid black;
   -webkit-box-shadow: 5px 5px 5px black;
           box-shadow: 5px 5px 5px black;
   outline-color: black;

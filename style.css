@@ -9,7 +9,7 @@ body {
   padding: 0;
   background-color: #eee5e9;
   line-height: 2;
-  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  font-size: calc(16px + 4 * ((100vw - 320px) / 680));
 }
 
 h1 {

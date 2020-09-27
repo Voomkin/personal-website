@@ -119,6 +119,13 @@ footer {
 }
 
 @media only screen and (min-width: 1080px) {
+  .border {
+    width: 40vw;
+    height: 40vh;
+  }
+  footer {
+    font-size: 2rem;
+  }
   .header-flex h1 {
     font-size: 5rem;
   }
